@@ -1,0 +1,162 @@
+/* line 8, ../../app/assets/stylesheets/layout.css.scss */
+.container {
+  width: 710px;
+}
+
+/* line 12, ../../app/assets/stylesheets/layout.css.scss */
+body {
+  background: #ccffff;
+}
+
+/* line 16, ../../app/assets/stylesheets/layout.css.scss */
+header {
+  padding-top: 20px;
+}
+/* line 18, ../../app/assets/stylesheets/layout.css.scss */
+header img {
+  padding: 1em;
+  background: white;
+}
+
+/* line 25, ../../app/assets/stylesheets/layout.css.scss */
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: white;
+}
+/* line 30, ../../app/assets/stylesheets/layout.css.scss */
+section h1 {
+  font-size: 200%;
+}
+
+/* Links */
+/* line 38, ../../app/assets/stylesheets/layout.css.scss */
+a {
+  color: #0099cc;
+  text-decoration: none;
+}
+/* line 41, ../../app/assets/stylesheets/layout.css.scss */
+a:hover {
+  color: #006699;
+  text-decoration: underline;
+}
+/* line 45, ../../app/assets/stylesheets/layout.css.scss */
+a:visited {
+  color: #006699;
+}
+
+/* Excessive button */
+/* line 54, ../../app/assets/stylesheets/layout.css.scss */
+a.signup_button {
+  margin: 0 auto;
+  display: block;
+  width: 190px;
+  background-color: #7fbf4d;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
+  background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -o-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: linear-gradient(top, #7fbf4d, #63a62f);
+  border: 1px solid #63a62f;
+  border-bottom: 1px solid #5b992b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
+  -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
+  -ms-box-shadow: inset 0 1px 0 0 #96ca6d;
+  -o-box-shadow: inset 0 1px 0 0 #96ca6d;
+  box-shadow: inset 0 1px 0 0 #96ca6d;
+  color: #fff;
+  font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  line-height: 1;
+  padding: 7px 0 8px 0;
+  text-align: center;
+  text-shadow: 0 -1px 0 #4c9021;
+  width: 150px;
+  padding: 20px;
+}
+/* line 85, ../../app/assets/stylesheets/layout.css.scss */
+a.signup_button:active {
+  border: 1px solid #5b992b;
+  border-bottom: 1px solid #538c27;
+  -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+  -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+  -ms-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+  -o-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+  box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+}
+/* line 94, ../../app/assets/stylesheets/layout.css.scss */
+a.signup_button:hover {
+  background-color: #76b347;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
+  background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
+  background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
+  background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
+  background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
+  background-image: linear-gradient(top, #76b347, #5e9e2e);
+  -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
+  -moz-box-shadow: inset 0 1px 0 0 #8dbf67;
+  -ms-box-shadow: inset 0 1px 0 0 #8dbf67;
+  -o-box-shadow: inset 0 1px 0 0 #8dbf67;
+  box-shadow: inset 0 1px 0 0 #8dbf67;
+  cursor: pointer;
+}
+
+/* Navigation */
+/* line 115, ../../app/assets/stylesheets/layout.css.scss */
+nav {
+  float: right;
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+/* line 120, ../../app/assets/stylesheets/layout.css.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 123, ../../app/assets/stylesheets/layout.css.scss */
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+/* line 127, ../../app/assets/stylesheets/layout.css.scss */
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+/* line 130, ../../app/assets/stylesheets/layout.css.scss */
+nav ul li a:visited {
+  color: #0099cc;
+}
+/* line 133, ../../app/assets/stylesheets/layout.css.scss */
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Round corners */
+/* line 143, ../../app/assets/stylesheets/layout.css.scss */
+.round {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Footer */
+/* line 151, ../../app/assets/stylesheets/layout.css.scss */
+footer {
+  text-align: center;
+  margin-top: 10px;
+  width: 710px;
+  margin: 1em auto;
+}
+/* line 156, ../../app/assets/stylesheets/layout.css.scss */
+footer nav {
+  float: none;
+}
