@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
+gem 'bcrypt-ruby', '3.0.1'
 gem "compass", ">= 0.11.7"
 
 # Bundle edge Rails instead:
@@ -10,6 +11,7 @@ group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.8.1'
   gem 'guard-rspec', '0.5.5'
+  gem 'annotate', '~> 2.4.1.beta'
 end
 
 # Gems used only for assets and not required
