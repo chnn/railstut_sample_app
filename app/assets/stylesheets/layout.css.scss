@@ -3,8 +3,6 @@ $background-color: #cff;
 $link-color: #09c;
 $visited-link-color: #069;
 
-
-
 .container {
   width: $full-width;
 }
@@ -145,6 +143,60 @@ nav {
   -webkit-border-radius: 10px;
   border-radius:         10px;
 }
+
+/* User show page */
+
+.profile {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.main {
+  width: 60%;
+  padding: 1em;
+  float: left;
+  img.gravatar {
+    border: 1px solid #999;
+  }
+}
+
+
+.sidebar {
+  width: 30%;
+  padding: 1em;
+  float: right;
+  background: #ffc;
+}
+
+/* User sign up page */
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+#error_explanation {
+  width: 500px;
+  border: 2px solid darken(red, 10%);
+  margin: 40px 0 20px 0;
+  h2 {
+    padding: 5px;
+    background-color: darken(red, 10%);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  ul li {
+    list-style: square;
+  }
+}
+
+.field_with_errors {
+  background-color: lighten(red, 30%);
+  width: 185px;
+  padding: 5px;
+}
+
 
 /* Footer */
 
